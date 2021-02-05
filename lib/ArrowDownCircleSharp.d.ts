@@ -1,0 +1,9 @@
+export default ArrowDownCircleSharp;
+declare function ArrowDownCircleSharp({ height, width, style, color, cssClasses, className }: {
+    height?: number;
+    width?: number;
+    style?: {};
+    color?: string;
+    cssClasses?: string;
+    className?: string;
+}): any;
