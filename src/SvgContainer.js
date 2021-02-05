@@ -5,6 +5,7 @@ function SvgContainer({
   color,
   children,
   style,
+  fill,
   ...rest
 }){
   const childStyle = {
