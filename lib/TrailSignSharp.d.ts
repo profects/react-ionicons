@@ -1,9 +1,10 @@
 export default TrailSignSharp;
-declare function TrailSignSharp({ height, width, style, color, cssClasses, className }: {
+declare function TrailSignSharp({ height, width, style, color, cssClasses, className, onClick }: {
     height?: number;
     width?: number;
     style?: {};
     color?: string;
     cssClasses?: string;
     className?: string;
+    onClick: any;
 }): any;

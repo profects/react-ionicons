@@ -1,9 +1,10 @@
 export default StarHalfSharp;
-declare function StarHalfSharp({ height, width, style, color, cssClasses, className }: {
+declare function StarHalfSharp({ height, width, style, color, cssClasses, className, onClick }: {
     height?: number;
     width?: number;
     style?: {};
     color?: string;
     cssClasses?: string;
     className?: string;
+    onClick: any;
 }): any;

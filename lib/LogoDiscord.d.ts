@@ -1,9 +1,10 @@
 export default LogoDiscord;
-declare function LogoDiscord({ height, width, style, color, cssClasses, className }: {
+declare function LogoDiscord({ height, width, style, color, cssClasses, className, onClick }: {
     height?: number;
     width?: number;
     style?: {};
     color?: string;
     cssClasses?: string;
     className?: string;
+    onClick: any;
 }): any;

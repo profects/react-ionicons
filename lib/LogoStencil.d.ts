@@ -1,9 +1,10 @@
 export default LogoStencil;
-declare function LogoStencil({ height, width, style, color, cssClasses, className }: {
+declare function LogoStencil({ height, width, style, color, cssClasses, className, onClick }: {
     height?: number;
     width?: number;
     style?: {};
     color?: string;
     cssClasses?: string;
     className?: string;
+    onClick: any;
 }): any;

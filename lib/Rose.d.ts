@@ -1,9 +1,10 @@
 export default Rose;
-declare function Rose({ height, width, style, color, cssClasses, className }: {
+declare function Rose({ height, width, style, color, cssClasses, className, onClick }: {
     height?: number;
     width?: number;
     style?: {};
     color?: string;
     cssClasses?: string;
     className?: string;
+    onClick: any;
 }): any;

@@ -1,9 +1,10 @@
 export default CarOutline;
-declare function CarOutline({ height, width, style, color, cssClasses, className }: {
+declare function CarOutline({ height, width, style, color, cssClasses, className, onClick }: {
     height?: number;
     width?: number;
     style?: {};
     color?: string;
     cssClasses?: string;
     className?: string;
+    onClick: any;
 }): any;

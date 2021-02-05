@@ -1,9 +1,10 @@
 export default LogoAmazon;
-declare function LogoAmazon({ height, width, style, color, cssClasses, className }: {
+declare function LogoAmazon({ height, width, style, color, cssClasses, className, onClick }: {
     height?: number;
     width?: number;
     style?: {};
     color?: string;
     cssClasses?: string;
     className?: string;
+    onClick: any;
 }): any;

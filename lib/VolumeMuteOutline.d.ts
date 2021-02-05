@@ -1,9 +1,10 @@
 export default VolumeMuteOutline;
-declare function VolumeMuteOutline({ height, width, style, color, cssClasses, className }: {
+declare function VolumeMuteOutline({ height, width, style, color, cssClasses, className, onClick }: {
     height?: number;
     width?: number;
     style?: {};
     color?: string;
     cssClasses?: string;
     className?: string;
+    onClick: any;
 }): any;

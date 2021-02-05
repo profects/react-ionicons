@@ -1,9 +1,10 @@
 export default BandageSharp;
-declare function BandageSharp({ height, width, style, color, cssClasses, className }: {
+declare function BandageSharp({ height, width, style, color, cssClasses, className, onClick }: {
     height?: number;
     width?: number;
     style?: {};
     color?: string;
     cssClasses?: string;
     className?: string;
+    onClick: any;
 }): any;

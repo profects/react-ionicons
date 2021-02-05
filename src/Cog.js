@@ -1,7 +1,7 @@
 import React from 'react'
 import SvgContainer from './SvgContainer'
 
-const Cog = ({ height = 22, width = 22, style = {}, color = '#000', cssClasses = '', className = '' }) => {
+const Cog = ({ height = 22, width = 22, style = {}, color = '#000', cssClasses = '', className = '', onClick }) => {
   return (
     <SvgContainer
       height={height}

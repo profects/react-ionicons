@@ -1,9 +1,10 @@
 export default FolderOpenSharp;
-declare function FolderOpenSharp({ height, width, style, color, cssClasses, className }: {
+declare function FolderOpenSharp({ height, width, style, color, cssClasses, className, onClick }: {
     height?: number;
     width?: number;
     style?: {};
     color?: string;
     cssClasses?: string;
     className?: string;
+    onClick: any;
 }): any;

@@ -1,9 +1,10 @@
 export default MusicalNote;
-declare function MusicalNote({ height, width, style, color, cssClasses, className }: {
+declare function MusicalNote({ height, width, style, color, cssClasses, className, onClick }: {
     height?: number;
     width?: number;
     style?: {};
     color?: string;
     cssClasses?: string;
     className?: string;
+    onClick: any;
 }): any;

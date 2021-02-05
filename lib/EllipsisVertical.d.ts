@@ -1,9 +1,10 @@
 export default EllipsisVertical;
-declare function EllipsisVertical({ height, width, style, color, cssClasses, className }: {
+declare function EllipsisVertical({ height, width, style, color, cssClasses, className, onClick }: {
     height?: number;
     width?: number;
     style?: {};
     color?: string;
     cssClasses?: string;
     className?: string;
+    onClick: any;
 }): any;

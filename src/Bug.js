@@ -1,7 +1,7 @@
 import React from 'react'
 import SvgContainer from './SvgContainer'
 
-const Bug = ({ height = 22, width = 22, style = {}, color = '#000', cssClasses = '', className = '' }) => {
+const Bug = ({ height = 22, width = 22, style = {}, color = '#000', cssClasses = '', className = '', onClick }) => {
   return (
     <SvgContainer
       height={height}

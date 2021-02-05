@@ -1,9 +1,10 @@
 export default ColorFillOutline;
-declare function ColorFillOutline({ height, width, style, color, cssClasses, className }: {
+declare function ColorFillOutline({ height, width, style, color, cssClasses, className, onClick }: {
     height?: number;
     width?: number;
     style?: {};
     color?: string;
     cssClasses?: string;
     className?: string;
+    onClick: any;
 }): any;
