@@ -7,14 +7,12 @@ function SvgContainer({
   style,
   ...rest
 }){
-  const { fill } = style
   const childStyle = {
     height,
     width,
     color,
-    fill,
   }
-  return <span {...rest}>{React.cloneElement(children, { style: { ...childStyle, ...style }, fill })}</span>
+  return <span {...rest}>{React.cloneElement(children, { style: { ...childStyle, ...style } })}</span>
 } 
 
 export default SvgContainer
