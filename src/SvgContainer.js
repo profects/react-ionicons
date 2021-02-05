@@ -1,6 +1,6 @@
 import React from 'react'
-function SvgContainer(props){
-  return React.cloneElement(children, props)
+function SvgContainer({children,...rest}){
+  return React.cloneElement(children, rest)
 } 
 
 export default SvgContainer

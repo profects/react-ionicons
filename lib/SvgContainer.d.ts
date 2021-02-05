@@ -1,2 +1,5 @@
 export default SvgContainer;
-declare function SvgContainer(props: any): any;
+declare function SvgContainer({ children, ...rest }: {
+    [x: string]: any;
+    children: any;
+}): any;
