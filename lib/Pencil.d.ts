@@ -6,5 +6,5 @@ declare function Pencil({ height, width, style, color, cssClasses, className, on
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

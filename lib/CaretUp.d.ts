@@ -6,5 +6,5 @@ declare function CaretUp({ height, width, style, color, cssClasses, className, o
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

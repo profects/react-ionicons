@@ -6,5 +6,5 @@ declare function ChatboxEllipsesOutline({ height, width, style, color, cssClasse
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

@@ -6,5 +6,5 @@ declare function TrendingDownOutline({ height, width, style, color, cssClasses, 
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

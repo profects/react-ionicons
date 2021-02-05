@@ -6,5 +6,5 @@ declare function NotificationsCircleSharp({ height, width, style, color, cssClas
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

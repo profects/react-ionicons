@@ -6,5 +6,5 @@ declare function EllipsisHorizontalCircleOutline({ height, width, style, color, 
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

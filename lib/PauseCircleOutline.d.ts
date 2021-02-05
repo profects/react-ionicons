@@ -6,5 +6,5 @@ declare function PauseCircleOutline({ height, width, style, color, cssClasses, c
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

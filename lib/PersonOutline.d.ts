@@ -6,5 +6,5 @@ declare function PersonOutline({ height, width, style, color, cssClasses, classN
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

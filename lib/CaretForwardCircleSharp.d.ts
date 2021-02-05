@@ -6,5 +6,5 @@ declare function CaretForwardCircleSharp({ height, width, style, color, cssClass
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

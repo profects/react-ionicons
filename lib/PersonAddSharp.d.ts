@@ -6,5 +6,5 @@ declare function PersonAddSharp({ height, width, style, color, cssClasses, class
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

@@ -6,5 +6,5 @@ declare function ChatbubbleEllipsesSharp({ height, width, style, color, cssClass
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

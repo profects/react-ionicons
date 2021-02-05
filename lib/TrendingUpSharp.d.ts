@@ -6,5 +6,5 @@ declare function TrendingUpSharp({ height, width, style, color, cssClasses, clas
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

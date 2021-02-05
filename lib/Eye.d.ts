@@ -6,5 +6,5 @@ declare function Eye({ height, width, style, color, cssClasses, className, onCli
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

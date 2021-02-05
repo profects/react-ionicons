@@ -6,5 +6,5 @@ declare function HeartDislikeSharp({ height, width, style, color, cssClasses, cl
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

@@ -1,7 +1,7 @@
 import React from 'react'
 import SvgContainer from './SvgContainer'
 
-const EarthOutline = ({ height = 22, width = 22, style = {}, color = '#000', cssClasses = '', className = '', onClick }) => {
+const EarthOutline = ({ height = 22, width = 22, style = {}, color = '#000', cssClasses = '', className = '', onClick = () => null }) => {
   return (
     <SvgContainer
       height={height}

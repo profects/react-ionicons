@@ -6,5 +6,5 @@ declare function ChevronUpOutline({ height, width, style, color, cssClasses, cla
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

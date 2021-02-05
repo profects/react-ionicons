@@ -6,5 +6,5 @@ declare function ChevronForwardCircleSharp({ height, width, style, color, cssCla
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

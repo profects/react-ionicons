@@ -6,5 +6,5 @@ declare function BatteryCharging({ height, width, style, color, cssClasses, clas
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

@@ -6,5 +6,5 @@ declare function At({ height, width, style, color, cssClasses, className, onClic
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

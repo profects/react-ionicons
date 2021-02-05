@@ -6,5 +6,5 @@ declare function Bulb({ height, width, style, color, cssClasses, className, onCl
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

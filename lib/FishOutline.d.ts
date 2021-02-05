@@ -6,5 +6,5 @@ declare function FishOutline({ height, width, style, color, cssClasses, classNam
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

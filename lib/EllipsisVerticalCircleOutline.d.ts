@@ -6,5 +6,5 @@ declare function EllipsisVerticalCircleOutline({ height, width, style, color, cs
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

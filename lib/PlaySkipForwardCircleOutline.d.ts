@@ -6,5 +6,5 @@ declare function PlaySkipForwardCircleOutline({ height, width, style, color, css
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

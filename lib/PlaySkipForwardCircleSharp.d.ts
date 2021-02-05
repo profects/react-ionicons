@@ -6,5 +6,5 @@ declare function PlaySkipForwardCircleSharp({ height, width, style, color, cssCl
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

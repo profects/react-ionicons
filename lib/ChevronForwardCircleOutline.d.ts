@@ -6,5 +6,5 @@ declare function ChevronForwardCircleOutline({ height, width, style, color, cssC
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;

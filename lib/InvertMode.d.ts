@@ -6,5 +6,5 @@ declare function InvertMode({ height, width, style, color, cssClasses, className
     color?: string;
     cssClasses?: string;
     className?: string;
-    onClick: any;
+    onClick?: () => any;
 }): any;
