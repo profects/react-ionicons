@@ -1,3 +1,4 @@
+import React from 'react'
 function SvgContainer({ 
   width,
   height,
@@ -15,5 +16,5 @@ function SvgContainer({
   return <span {...rest}>{React.cloneElement(children, { style: { ...childStyle, style } })}</span>
 } 
 
-export default React.memo(SvgContainer)
+export default SvgContainer
 
